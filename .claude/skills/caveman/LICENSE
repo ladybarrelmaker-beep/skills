@@ -1,3 +1,22 @@
+The following files come from https://github.com/JuliusBrussee/caveman, whose
+skills/ and agents/ directories are MIT licensed (the compression engine in that
+repository is under BSL 1.1 and is not included here):
+
+  .claude/skills/caveman/SKILL.md
+  .claude/skills/caveman-commit/SKILL.md
+  .claude/skills/caveman-review/SKILL.md
+  .claude/skills/cavecrew/SKILL.md
+  .claude/skills/investigate-first/SKILL.md
+  .claude/skills/lean-build/SKILL.md
+  .claude/skills/migration/SKILL.md
+  .claude/skills/safe-refactor/SKILL.md
+  .claude/skills/surgical-patch/SKILL.md
+  .claude/skills/verify-and-stop/SKILL.md
+  .claude/agents/cavecrew-builder.md
+  .claude/agents/cavecrew-investigator.md
+  .claude/agents/cavecrew-reviewer.md
+  .claude/agents/caveman-explore.md
+
 MIT License
 
 Copyright (c) 2026 Julius Brussee
