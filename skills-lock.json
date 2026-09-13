@@ -247,6 +247,12 @@
       "skillPath": "skills/referrals/SKILL.md",
       "computedHash": "78c724569672e3590fed904ef969575478201dbe424d3bd854e35906a98838ef"
     },
+    "remotion-best-practices": {
+      "source": "remotion-dev/skills",
+      "sourceType": "github",
+      "skillPath": "skills/remotion-best-practices/SKILL.md",
+      "computedHash": "06834a41e1813096730e4ed306171a0fd3765ae8db450e6543855f3bedbdd654"
+    },
     "revops": {
       "source": "coreyhaines31/marketingskills",
       "sourceType": "github",
