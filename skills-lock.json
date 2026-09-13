@@ -67,6 +67,12 @@
       "skillPath": "skills/community-marketing/SKILL.md",
       "computedHash": "07ae29742d77a243b988267ae4bfdab90b3ca8219ab15db0feeed94c054ba1c2"
     },
+    "company-values": {
+      "source": "slavingia/skills",
+      "sourceType": "github",
+      "skillPath": "skills/company-values/SKILL.md",
+      "computedHash": "0223f48acc39f82066414e36881d3ec36e2cb0e1dde2d8c7aaa34516f003eab8"
+    },
     "competitor-profiling": {
       "source": "coreyhaines31/marketingskills",
       "sourceType": "github",
@@ -127,11 +133,29 @@
       "skillPath": "skills/events/SKILL.md",
       "computedHash": "f92f21a38255f8e472ef10286036543b53f08501750f01b66236c31a6a357c70"
     },
+    "find-community": {
+      "source": "slavingia/skills",
+      "sourceType": "github",
+      "skillPath": "skills/find-community/SKILL.md",
+      "computedHash": "f27dc6b34d2bd6a73dd837bb0d764d28ff2eeae7aee7ce2569ec16c3d2ee8a40"
+    },
+    "first-customers": {
+      "source": "slavingia/skills",
+      "sourceType": "github",
+      "skillPath": "skills/first-customers/SKILL.md",
+      "computedHash": "7db285b341170d96270a32857742e3740f6e183ee54ab9c868dbfde95a1df9a7"
+    },
     "free-tools": {
       "source": "coreyhaines31/marketingskills",
       "sourceType": "github",
       "skillPath": "skills/free-tools/SKILL.md",
       "computedHash": "ab40a39f8b10a0ee423f47005a49defcae4e9b82b4c6e5be1d6c67d7f963973e"
+    },
+    "grow-sustainably": {
+      "source": "slavingia/skills",
+      "sourceType": "github",
+      "skillPath": "skills/grow-sustainably/SKILL.md",
+      "computedHash": "a579e4ba6b287c3769252bfb1bb2a319185599c6d424c260c8518ccefd782054"
     },
     "image": {
       "source": "coreyhaines31/marketingskills",
@@ -187,6 +211,30 @@
       "skillPath": "skills/marketing-psychology/SKILL.md",
       "computedHash": "50d735eb0f5c36f379ed2200f21aeacc9b9ad85667b5d33ec6111857352a1340"
     },
+    "minimalist-marketing-plan": {
+      "source": "slavingia/skills",
+      "sourceType": "github",
+      "skillPath": "skills/marketing-plan/SKILL.md",
+      "computedHash": "75de7577d046e2ae92f27ec3c49e883389c626a8529af35d123e2efa1d89e873"
+    },
+    "minimalist-pricing": {
+      "source": "slavingia/skills",
+      "sourceType": "github",
+      "skillPath": "skills/pricing/SKILL.md",
+      "computedHash": "c20cfe06e3c2f9070a2be170d26f02ec0c1b2bc3f4b8be7e54417535bbef6bed"
+    },
+    "minimalist-review": {
+      "source": "slavingia/skills",
+      "sourceType": "github",
+      "skillPath": "skills/minimalist-review/SKILL.md",
+      "computedHash": "8193e5aee0f784a03221095e6199210834a5b421b3ae0e50d1865684d83f7aea"
+    },
+    "mvp": {
+      "source": "slavingia/skills",
+      "sourceType": "github",
+      "skillPath": "skills/mvp/SKILL.md",
+      "computedHash": "09dc96e5b62885f6102b2319c1ed6b8815005e81467fa42afb6102fafdfa9e0b"
+    },
     "offers": {
       "source": "coreyhaines31/marketingskills",
       "sourceType": "github",
@@ -216,6 +264,12 @@
       "sourceType": "github",
       "skillPath": "skills/pricing/SKILL.md",
       "computedHash": "b3df24bd014388660fd2c19eef78b5063c7ca8cf67b471fe8d9f4fa6275f0715"
+    },
+    "processize": {
+      "source": "slavingia/skills",
+      "sourceType": "github",
+      "skillPath": "skills/processize/SKILL.md",
+      "computedHash": "f309e8e469ebe1c8541fd396a196d7e5ceef44df72118c42937ad23655de2385"
     },
     "product-marketing": {
       "source": "coreyhaines31/marketingskills",
@@ -294,6 +348,12 @@
       "sourceType": "github",
       "skillPath": "skills/social/SKILL.md",
       "computedHash": "906a0529e4ee506c3e2ae81d6dab72d98d2933ec3dac0f332d6b8a2e67acf6a0"
+    },
+    "validate-idea": {
+      "source": "slavingia/skills",
+      "sourceType": "github",
+      "skillPath": "skills/validate-idea/SKILL.md",
+      "computedHash": "6c35390ae0793d0a46285c0e2c2f9cce651f71cc7a4e845467f7f07a147cc052"
     },
     "video": {
       "source": "coreyhaines31/marketingskills",
