@@ -1,0 +1,72 @@
+{
+  "skill_name": "context-engineering",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I want to add a background job system to my FastAPI app so long-running exports don't block requests. Set this up properly instead of me just prompting you and hoping.",
+      "expected_output": "Should assess scope, existing scaffold (CLAUDE.md, PRPs/, examples/), patterns to mirror, and what validation commands exist. Should walk the three-artifact workflow in order rather than jumping straight to code. Should produce or request an INITIAL.md covering FEATURE, EXAMPLES, DOCUMENTATION, and OTHER CONSIDERATIONS, then research the codebase and external docs before writing a PRP to PRPs/{feature-name}.md. Should include an ordered task list, pseudocode with critical details, integration points, and three levels of executable validation gates. Should score the PRP 1-10 for one-pass confidence.",
+      "assertions": [
+        "Assesses scope and existing scaffold before creating files",
+        "Follows the INITIAL.md then PRP then execute order",
+        "Covers all four INITIAL.md sections",
+        "Researches the codebase and external docs before writing the PRP",
+        "Saves the PRP to PRPs/{feature-name}.md",
+        "Includes an ordered task list and pseudocode",
+        "Defines executable validation gates at syntax, unit, and integration levels",
+        "Scores the PRP for one-pass confidence"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Write me a PRP for adding OAuth to our API.",
+      "expected_output": "Should not produce a template filled with placeholders. Should first research the codebase for existing auth patterns, session handling, and test structure, and gather provider documentation with specific URLs. Should ask for clarification only where genuinely ambiguous (which provider, which flow, where the token store lives). Should then produce a PRP whose context section references real files and real URLs, with gotchas specific to the chosen provider, and validation gates that are runnable commands in this repo.",
+      "assertions": [
+        "Researches the codebase before writing",
+        "Gathers external documentation with specific URLs",
+        "References real files rather than placeholders",
+        "Asks for clarification only where genuinely ambiguous",
+        "Documents provider-specific gotchas",
+        "Provides runnable validation commands"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Can you fix this typo in our README? Also should I write a PRP for it first?",
+      "expected_output": "Should say plainly that a PRP is not warranted for a one-line change and that the scaffold overhead has to earn its place. Should just fix the typo. Should briefly note where the workflow does pay off (multi-file, multi-step features) without turning the answer into a pitch.",
+      "assertions": [
+        "Declines to generate a PRP for a trivial change",
+        "Explains that the overhead must be justified by scope",
+        "Completes the actual requested fix",
+        "Notes where the workflow does apply"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Here's my INITIAL.md: '## FEATURE: Build a scraper. ## EXAMPLES: see examples folder. ## DOCUMENTATION: none. ## OTHER CONSIDERATIONS: none.' Generate the PRP.",
+      "expected_output": "Should push back on the vagueness rather than generating a PRP from it. Should point out that 'Build a scraper' cannot be validated and ask what it scrapes, what the output is, what libraries and storage are involved. Should note that 'see examples folder' needs to name specific files and say what to mimic about each, and that an empty DOCUMENTATION section means the research burden shifts entirely to the PRP generation step. Should offer to strengthen the INITIAL.md, contrasting the weak feature line with a specific one.",
+      "assertions": [
+        "Refuses to generate a PRP from an unusably vague request",
+        "Identifies the FEATURE section as unvalidatable",
+        "Asks specific questions about behavior, libraries, and storage",
+        "Notes that EXAMPLES must name files and what to mimic",
+        "Offers a concrete rewrite of the weak sections"
+      ],
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "The PRP execution is failing on one test and I've been stuck for an hour. Can we just mark that test as skipped and move on?",
+      "expected_output": "Should decline to skip or weaken the test, since that defeats the validation loop that makes the workflow self-correcting. Should read the failure, find the root cause, and fix it. Should note that a persistent failure often means the PRP's context was incomplete and the gap is worth writing back into the PRP or the OTHER CONSIDERATIONS section of future requests.",
+      "assertions": [
+        "Declines to skip or mock out the failing test",
+        "Explains why weakening gates breaks the loop",
+        "Diagnoses the root cause instead",
+        "Suggests feeding the gap back into the PRP or project rules"
+      ],
+      "files": []
+    }
+  ]
+}
