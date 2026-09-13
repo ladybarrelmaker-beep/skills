@@ -52,7 +52,8 @@
     "banana": {
       "source": "AgriciDaniel/banana-claude",
       "sourceType": "github",
-      "skillPath": "skills/banana/SKILL.md"
+      "skillPath": "skills/banana/SKILL.md",
+      "computedHash": "02b957e1023fb359ca7ba75a406421789ed5989a21e431496bf7f678898c6bc1"
     },
     "churn-prevention": {
       "source": "coreyhaines31/marketingskills",
