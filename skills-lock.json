@@ -31,6 +31,12 @@
       "skillPath": "skills/analytics/SKILL.md",
       "computedHash": "f7f83a1c1c4ad904deba3164076b0407df00832463e93d998b36efe781f26867"
     },
+    "archon-cli": {
+      "source": "coleam00/archon",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/archon-cli/SKILL.md",
+      "computedHash": "c32f936846fba1b9b8545e13829697f3000e80756d4b68b7f81c6d2875eba7a5"
+    },
     "aso": {
       "source": "coreyhaines31/marketingskills",
       "sourceType": "github",
@@ -209,6 +215,12 @@
       "sourceType": "github",
       "skillPath": "skills/paywalls/SKILL.md",
       "computedHash": "1f0b8d15770d2e7737b818408dc5877b2eadc4cab072cdfb3529349ab059815f"
+    },
+    "playwright-cli": {
+      "source": "coleam00/archon",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/playwright-cli/SKILL.md",
+      "computedHash": "29c0b669a524d42b51934d7db9144c1c07a566d0549ae6fb6ccd810e5a3cf61b"
     },
     "popups": {
       "source": "coreyhaines31/marketingskills",
